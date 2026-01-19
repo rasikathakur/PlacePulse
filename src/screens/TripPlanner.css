@@ -1,0 +1,33 @@
+.container {
+    padding: 0px;
+    background-color: '';
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #293462;
+  }
+  
+  input[type="submit"] {
+    background-color: #293462;
+    color: #F7D716;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #F24C4C;
+    border-color: #F24C4C;
+  }
+  
+  /* Add more styling as needed */
+  

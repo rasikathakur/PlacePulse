@@ -1,0 +1,41 @@
+.hero {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F24C4C;
+    color: #293462;
+  }
+  
+  .username-input, .description textarea, .file-input {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #EC9B3B;
+  }
+  
+  .submit-button {
+    background-color: #EC9B3B;
+    color: #293462;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-label {
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #profilePic {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
